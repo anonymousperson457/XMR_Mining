@@ -1,6 +1,6 @@
 Linux:-
 
-Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1
+Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1 && cd moneroocean && killall xmrig
 
 Windows:-
 
@@ -9,3 +9,7 @@ Command:- powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile 
 NVIDIA XMRIG CUDA Plugin For Linux Download
 
 Link:- https://github.com/MoneroOcean/xmrig-cuda.git
+
+Edit_Config.json_For_GPU:- "kawpow": false
+
+Edit_Config.json_For_CPU:- "max_threads": null
