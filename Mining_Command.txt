@@ -11,5 +11,3 @@ NVIDIA XMRIG CUDA Plugin For Linux Download
 Link:- https://github.com/MoneroOcean/xmrig-cuda.git
 
 Edit_Config.json_For_GPU:- "kawpow": false
-
-Edit_Config.json_For_CPU:- "max_threads": null
