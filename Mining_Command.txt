@@ -13,9 +13,3 @@ Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/m
 Windows_Uninstalling:-
 
 Command:-  powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/uninstall_moneroocean_miner.bat', $tempfile); & $tempfile; Remove-Item -Force $tempfile"
-
-NVIDIA XMRIG CUDA Plugin For Linux and Windows Download
-
-Link:- https://github.com/MoneroOcean/xmrig-cuda.git
-
-Edit_Config.json_For_GPU:- "kawpow": false
