@@ -1,11 +1,10 @@
 Linux:-
 
-Command:- ./xmrig -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475.unmineable_worker_fhpyfwqp -p x 
+Command:- ./xmrig -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475.<Worker_Name> -p x
 
 Windows:-
 
-Command:- xmrig.exe -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475.unmineable_worker_fhpyfwqp -p x 
-pause
+Command:- xmrig.exe -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475.<Worker_Name> -p x
 
 Linux_Instllation:-
 
