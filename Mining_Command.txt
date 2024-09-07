@@ -1,15 +1,16 @@
-Linux_Installing:-
+Linux:-
 
-Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1 && cd moneroocean && killall xmrig
+Command:- ./xmrig -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475.unmineable_worker_fhpyfwqp -p x 
 
-Windows_Installing:-
+Windows:-
 
-Command:- powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.bat', $tempfile); & $tempfile 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1; Remove-Item -Force $tempfile"
+Command:- xmrig.exe -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475.unmineable_worker_fhpyfwqp -p x 
+pause
 
-Linux_Uninstalling:- 
+Linux_Instllation:-
 
-Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/uninstall_moneroocean_miner.sh | bash -s
+Link:- https://github.com/xmrig/xmrig/releases/download/v6.22.0/xmrig-6.22.0-linux-static-x64.tar.gz
 
-Windows_Uninstalling:-
+Windows_Installation:- 
 
-Command:-  powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/uninstall_moneroocean_miner.bat', $tempfile); & $tempfile; Remove-Item -Force $tempfile"
+Link:- https://github.com/xmrig/xmrig/releases/download/v6.22.0/xmrig-6.22.0-msvc-win64.zip
