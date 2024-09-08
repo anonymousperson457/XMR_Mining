@@ -9,3 +9,7 @@ Command:- xmrig.exe -a gr -o stratum+ssl://ghostrider.unmineable.com:443 -u USDT
 Windows_Installation:- 
 
 Link:- https://github.com/xmrig/xmrig/releases/download/v6.22.0/xmrig-6.22.0-gcc-win64.zip
+
+Temp:-
+
+Command:- onezerominer.exe -a dynex -o stratum+ssl://dynexsolve.unmineable.com:4444 -w USDT:0xE0BF5909d24B9813f5390261FeF59d7801E7D475#xm61-mie6 -p unmineable_worker_bapak  --no-cert-validation
