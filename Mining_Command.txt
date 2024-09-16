@@ -1,4 +1,4 @@
-# CPU USDT Mining Using Xmrig on GhostRider Algorithm:-
+# USDT CPU Mining Using Xmrig on GhostRider Algorithm:-
 
 Linux_Installation_And_Command:-
 
@@ -12,7 +12,7 @@ Windows_Installation:-
 
 Link:- https://github.com/xmrig/xmrig/releases/download/v6.22.0/xmrig-6.22.0-gcc-win64.zip
 
-# GPU USDT Mining Using Onezerominer on DynexSolve Algorithm:-
+# USDT GPU Mining Using Onezerominer on DynexSolve Algorithm:-
 
 Linux_Installation_And_Command:-
 
