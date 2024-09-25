@@ -1,6 +1,6 @@
 # Xmrig Crypto Mining (CPU Only Currently) on Linux:-
 
-Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1 && pkill xmrig && cd moneroocean && ./xmrig
+Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1 && killall xmrig && pkill xmrig && cd moneroocean && ./xmrig
 
 # Xmrig Crypto Mining (CPU/GPU) on Windows:-
 
