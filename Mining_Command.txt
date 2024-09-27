@@ -1,11 +1,15 @@
-# Xmrig Crypto Mining (CPU Only Currently) on Linux:-
+# Xmrig Crypto Mining on Linux (Installation):-
 
 Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1 && killall xmrig && pkill xmrig && cd moneroocean && ./xmrig
 
-# Xmrig Crypto Mining (CPU/GPU) on Windows:-
+# Xmrig Crypto Mining on Linux (Uninstallation):-
+
+Command:- curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/uninstall_moneroocean_miner.sh | bash -s
+
+# Xmrig Crypto Mining on Windows (Installation):-
 
 Command:- powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.bat', $tempfile); & $tempfile 453xdSmLFjcNDEWWTCHsptTMXHRBNf3ezHTf2mRQmvo2bgJxEtJafaNUFBTBau2yt7WJbWaFSpbYLAi9RobRzQUD97s9je1; Remove-Item -Force $tempfile"
 
-Windows NVIDIA CUDA Download Link:-
+# Xmrig Crypto Mining on Windows (Uninstallation):-
 
-Link:- https://github.com/MoneroOcean/xmrig-cuda/releases
+Command:- powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/uninstall_moneroocean_miner.bat', $tempfile); & $tempfile; Remove-Item -Force $tempfile"
