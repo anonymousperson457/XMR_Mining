@@ -22,6 +22,6 @@ Windows:-
 
 Command:- onezerominer.exe -a dynex -o stratum+ssl://dynexsolve.unmineable.com:443 -w USDT:0x5dc8006a903b89f8ff78094e983043d22629d0f3#xm61-mie6 -p Worker --no-cert-validation
 
-Windowss_Installation:-
+Windows_Installation:-
 
 Link:- https://github.com/OneZeroMiner/onezerominer/releases
