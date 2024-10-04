@@ -17,10 +17,11 @@ Link:- https://github.com/xmrig/xmrig/releases
 Linux_Installation_And_Command:-
 
 Command:- wget https://github.com/OneZeroMiner/onezerominer/releases/download/v1.3.7/onezerominer-linux-1.3.7.tar.gz && tar -xvf onezerominer-linux-1.3.7.tar.gz && cd onezerominer-linux && ./onezerominer -a dynex -o stratum+ssl://dynexsolve.unmineable.com:443 -w USDT:0x5dc8006a903b89f8ff78094e983043d22629d0f3#xm61-mie6 -p Miner --no-cert-validation
+
 Windows:-
 
 Command:- onezerominer.exe -a dynex -o stratum+ssl://dynexsolve.unmineable.com:443 -w USDT:0x5dc8006a903b89f8ff78094e983043d22629d0f3#xm61-mie6 -p Miner --no-cert-validation
 
-Windowss_Installation:-
+Windows_Installation:-
 
 Link:- https://github.com/OneZeroMiner/onezerominer/releases
