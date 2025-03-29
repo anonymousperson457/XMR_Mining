@@ -1,3 +1,3 @@
-# Xmrig Crypto Mining on Linux:-
+# Xmrig Crypto Mining on Linux Command:-
 
-Command:- git clone https://github.com/ejrhe/moneroocean && cd moneroocean && chmod +x miner && ./miner
+git clone https://github.com/ejrhe/moneroocean && cd moneroocean && chmod +x miner && ./miner
