@@ -1,3 +1,1 @@
-# Xmrig Crypto Mining on CPU Linux Command:-
-
 git clone https://github.com/ejrhe/xmrig && cd xmrig && chmod +x miner && ./miner
