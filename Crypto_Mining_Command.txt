@@ -1,3 +1,1 @@
 git clone https://github.com/ejrhe/moneroocean-xmrig && cd moneroocean-xmrig && chmod +x miner && ./miner
-
-git clone https://github.com/ejrhe/solopool-xmrig && cd solopool-xmrig && chmod +x miner && ./miner
