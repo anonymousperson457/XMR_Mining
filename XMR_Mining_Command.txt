@@ -1,1 +1,2 @@
 git clone https://github.com/ejrhe/moneroocean-xmrig && cd moneroocean-xmrig && chmod +x miner && ./miner
+
